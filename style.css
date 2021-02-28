@@ -1,0 +1,60 @@
+* {
+	white-space:pre-wrap;
+	background-color: #565259;
+	color: #848087;
+}
+
+.editor {
+	/*border:solid 1px #ccc;*/
+	padding: 20px;
+	min-height:200px;
+	white-space:pre-wrap;
+	font-family: "Inconsolata", monospace;
+	font-size: 20px;
+	 grid-area: right;
+	text-align: left;
+}
+
+
+body {
+	padding: 20px;
+	margin: auto;
+	font-family: "Roboto", sans-serif;
+}
+
+div {
+	font-size: 20px;
+}
+
+.output {
+
+	color: #FFF;
+}
+
+.numbering {
+	/*padding: 20px;*/
+	/*width: 10%;*/
+	grid-area: left;
+	text-align: right;
+	font-family: "Inconsolata", monospace;
+}
+
+.result {
+	grid-area:footer;
+}
+
+
+.mygrid-container {
+  display: grid;
+  grid-template-areas:
+    'left right right right right right';
+  grid-gap: 5px;
+  background-color: #4a464c;
+  padding: 10px;
+}
+
+.mygrid-container > div {
+  padding: 10px 0;
+}
+
+
